@@ -10,7 +10,7 @@ cj = CookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 opener.addheaders = [('User-agent','Mozilla/5.0')]
 
-keyWord = 'bharath'
+keyWord = raw_input('enter the keyword to search')
 
 startingLink = 'https://twitter.com/search/realtime?q='
 
